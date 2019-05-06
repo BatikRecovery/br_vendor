@@ -7,3 +7,4 @@ BOARD_SEPOLICY_DIRS += \
     vendor/batik/sepolicy/common
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += vendor/batik/sepolicy/private
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += vendor/batik/sepolicy/public
