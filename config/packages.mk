@@ -20,5 +20,5 @@ PRODUCT_PACKAGES += \
     sh_vendor
 
 # Magisk
-$(shell wget https://github.com/topjohnwu/Magisk/releases/download/v20.4/Magisk-v20.4.zip -O vendor/batik/Batik/tools/magisk.zip)
-$(shell wget https://github.com/topjohnwu/Magisk/releases/download/v20.4/Magisk-uninstaller-20200323.zip -O vendor/batik/Batik/tools/unrootmagisk.zip)
+$(shell wget -q https://github.com/topjohnwu/Magisk/releases/download/v20.4/Magisk-v20.4.zip -O vendor/batik/Batik/tools/magisk.zip)
+$(shell wget -q https://github.com/topjohnwu/Magisk/releases/download/v20.4/Magisk-uninstaller-20200323.zip -O vendor/batik/Batik/tools/unrootmagisk.zip)
